@@ -5,7 +5,14 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', () => {
-    this.addClass
+    this.addClass("tasty");
+  })
+}
+
+function pressIt() {
+  $("input").on("keydown", (e) => {
+    e.preventDefault();
+    if (e.key === )
   })
 }
 $(document).ready(function(){
