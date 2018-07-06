@@ -12,7 +12,7 @@ function frameIt() {
 function pressIt() {
   $("input").on("keydown", (e) => {
     e.preventDefault();
-    if (e.key === 71) {
+    if (e.which === 71) {
       alert("You have typed 'G'");
     }
   })
